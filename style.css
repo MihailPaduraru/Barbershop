@@ -1,5 +1,31 @@
 :root {
   --link-color: #ffffff;
+  --text-font-family: "Open Sans", sand-serif;
+  --heading-font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+.button {
+  color: #fff;
+  font-size: 12px;
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
 
 .global-header {
